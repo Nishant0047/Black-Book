@@ -1,0 +1,102 @@
+Part 1: Data Ingestion & Normalization
+
+Goal:Build backend modules that can collect, parse, and normalize logs or data feeds.
+
+Includes:
+
+1. Basic Python/Node scripts to read system/network logs
+2. Connect to threat intel APIs (like OTX or MISP)
+3. Normalize log structure (timestamp, source IP, type, severity, etc.)
+4. Store in temporary local storage or in-memory
+
+---
+
+Part 2: Database Design & Storage Layer
+
+Goal:Design the database and implement how data is stored efficiently.
+
+Includes:
+
+1. Choose and set up DB (MongoDB, PostgreSQL, or ElasticSearch)
+2. Design schema for:
+  i. Raw logs
+  ii. Threat indicators
+  iii. Alert events
+3. Build scripts to insert/read from DB
+4. Ensure data is clean and indexed
+
+---
+
+Part 3: Threat Detection & Correlation Engine
+
+Goal: Apply logic to identify known threats or suspicious patterns.
+
+Includes:
+
+1. Match logs with threat feeds (indicator-based detection)
+2. Implement simple rules (e.g., failed login attempts > 5)
+3. Tag logs as “suspicious”, “malicious”, or “safe”
+4. Build correlation logic for multi-step threats (optional for advanced version)
+
+---
+
+Part 4: Backend API Development
+
+Goal: Build a RESTful API for frontend to interact with processed data.
+
+Includes:
+
+1. Use Flask (Python) or Express (Node.js)
+2. Create endpoints:
+
+  i. `/logs` → View logs
+  ii. `/alerts` → View threat alerts
+  iii. `/stats` → Show counts/summary
+3. Secure API with CORS, rate-limiting, and token-based access
+
+---
+
+Part 5: Frontend Dashboard (Basic UI)
+
+Goal:Build an interactive dashboard for visualizing logs and alerts.
+
+Includes:
+
+1. Use React (or simple HTML/CSS/JS if preferred)
+2. Pages:
+
+  i. Home (dashboard summary)
+  ii. Logs (with filters)
+  iii. Alerts (highlighted)
+3. Integrate with backend API
+4. Simple charts (pie chart, bar graph for threat types)
+
+---
+
+Part 6: Advanced UI & Alerting System
+
+Goal: Make UI rich and add real-time alerting.
+
+Includes:
+
+1. Add D3.js, Chart.js or Recharts for advanced visualizations
+2. Heatmap of threats by region or time
+3. Add alert sound, popups, or color codes
+4. Export logs/alerts as PDF/CSV
+5. Real-time update with polling or WebSocket
+
+---
+
+Part 7: Containerization & Deployment
+
+Goal: Package everything using Docker and deploy locally or on cloud.
+
+Includes:
+
+1. Write Dockerfiles for backend, frontend, and DB
+2. Docker Compose to run all services together
+3. Test everything end-to-end
+4. Optional: Deploy on AWS/GCP or any server
+5. Add README, docs, user guide
+
+---
