@@ -1,0 +1,1113 @@
+[
+  {
+    "timestamp": "2025-07-29T10:00:00Z",
+    "src_ip": "8.8.8.8",
+    "dst_ip": "192.168.1.5",
+    "event": "DNS request",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:01:00Z",
+    "src_ip": "1.1.1.1",
+    "dst_ip": "10.0.0.12",
+    "event": "Port scan detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:02:00Z",
+    "src_ip": "185.100.87.202",
+    "dst_ip": "172.16.0.1",
+    "event": "Suspicious login attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:03:00Z",
+    "src_ip": "103.21.244.0",
+    "dst_ip": "192.168.1.9",
+    "event": "SSH brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:04:00Z",
+    "src_ip": "198.51.100.2",
+    "dst_ip": "10.0.0.5",
+    "event": "Web shell upload",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:05:00Z",
+    "src_ip": "23.129.64.0",
+    "dst_ip": "10.1.1.8",
+    "event": "Malicious file download",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:06:00Z",
+    "src_ip": "203.0.113.1",
+    "dst_ip": "192.168.2.11",
+    "event": "Unauthorized access",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:07:00Z",
+    "src_ip": "185.244.25.0",
+    "dst_ip": "10.0.0.15",
+    "event": "Botnet traffic",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:08:00Z",
+    "src_ip": "109.201.133.0",
+    "dst_ip": "10.0.0.22",
+    "event": "Exploit attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:09:00Z",
+    "src_ip": "185.220.101.0",
+    "dst_ip": "192.168.3.20",
+    "event": "Malware beacon detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:10:00Z",
+    "src_ip": "91.219.236.0",
+    "dst_ip": "192.168.3.21",
+    "event": "Credential stuffing",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:11:00Z",
+    "src_ip": "45.138.72.0",
+    "dst_ip": "192.168.3.22",
+    "event": "RDP brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:12:00Z",
+    "src_ip": "80.82.70.0",
+    "dst_ip": "192.168.3.23",
+    "event": "Suspicious file execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:13:00Z",
+    "src_ip": "185.220.102.0",
+    "dst_ip": "192.168.3.24",
+    "event": "Proxy traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:14:00Z",
+    "src_ip": "104.244.72.0",
+    "dst_ip": "192.168.3.25",
+    "event": "Malicious JavaScript loaded",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:15:00Z",
+    "src_ip": "176.10.104.0",
+    "dst_ip": "192.168.3.26",
+    "event": "Anomalous DNS pattern",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:16:00Z",
+    "src_ip": "198.96.155.0",
+    "dst_ip": "192.168.3.27",
+    "event": "Fileless malware",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:17:00Z",
+    "src_ip": "212.83.182.0",
+    "dst_ip": "192.168.3.28",
+    "event": "Reverse shell attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:18:00Z",
+    "src_ip": "5.2.69.0",
+    "dst_ip": "192.168.3.29",
+    "event": "Backdoor communication",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:19:00Z",
+    "src_ip": "89.248.167.0",
+    "dst_ip": "192.168.3.30",
+    "event": "Malicious PowerShell script",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:20:00Z",
+    "src_ip": "199.195.253.0",
+    "dst_ip": "192.168.3.31",
+    "event": "Outbound beacon",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:21:00Z",
+    "src_ip": "37.19.214.0",
+    "dst_ip": "192.168.3.32",
+    "event": "DGA domain resolution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:22:00Z",
+    "src_ip": "185.100.85.0",
+    "dst_ip": "192.168.3.33",
+    "event": "Malicious PDF opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:23:00Z",
+    "src_ip": "91.218.114.0",
+    "dst_ip": "192.168.3.34",
+    "event": "Malware-infected USB",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:24:00Z",
+    "src_ip": "185.38.175.0",
+    "dst_ip": "192.168.3.35",
+    "event": "C2 traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:25:00Z",
+    "src_ip": "5.79.66.0",
+    "dst_ip": "192.168.3.36",
+    "event": "Phishing email opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:26:00Z",
+    "src_ip": "138.68.165.0",
+    "dst_ip": "192.168.3.37",
+    "event": "Malicious macro execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:27:00Z",
+    "src_ip": "185.31.175.0",
+    "dst_ip": "192.168.3.38",
+    "event": "Known threat actor IP",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:28:00Z",
+    "src_ip": "89.234.157.0",
+    "dst_ip": "192.168.3.39",
+    "event": "Zero-day exploit",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:29:00Z",
+    "src_ip": "82.221.105.0",
+    "dst_ip": "192.168.3.40",
+    "event": "Trojan downloader",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:30:00Z",
+    "src_ip": "178.20.55.0",
+    "dst_ip": "192.168.3.41",
+    "event": "Command and control",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:31:00Z",
+    "src_ip": "8.8.8.8",
+    "dst_ip": "192.168.3.42",
+    "event": "DNS request",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:32:00Z",
+    "src_ip": "1.1.1.1",
+    "dst_ip": "192.168.3.43",
+    "event": "Port scan detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:33:00Z",
+    "src_ip": "185.100.87.202",
+    "dst_ip": "192.168.3.44",
+    "event": "Suspicious login attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:34:00Z",
+    "src_ip": "103.21.244.0",
+    "dst_ip": "192.168.3.45",
+    "event": "SSH brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:35:00Z",
+    "src_ip": "198.51.100.2",
+    "dst_ip": "192.168.3.46",
+    "event": "Web shell upload",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:36:00Z",
+    "src_ip": "23.129.64.0",
+    "dst_ip": "192.168.3.47",
+    "event": "Malicious file download",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:37:00Z",
+    "src_ip": "203.0.113.1",
+    "dst_ip": "192.168.3.48",
+    "event": "Unauthorized access",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:38:00Z",
+    "src_ip": "185.244.25.0",
+    "dst_ip": "192.168.3.49",
+    "event": "Botnet traffic",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:39:00Z",
+    "src_ip": "109.201.133.0",
+    "dst_ip": "192.168.3.50",
+    "event": "Exploit attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:40:00Z",
+    "src_ip": "185.220.101.0",
+    "dst_ip": "192.168.3.1",
+    "event": "Malware beacon detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:41:00Z",
+    "src_ip": "91.219.236.0",
+    "dst_ip": "192.168.3.2",
+    "event": "Credential stuffing",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:42:00Z",
+    "src_ip": "45.138.72.0",
+    "dst_ip": "192.168.3.3",
+    "event": "RDP brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:43:00Z",
+    "src_ip": "80.82.70.0",
+    "dst_ip": "192.168.3.4",
+    "event": "Suspicious file execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:44:00Z",
+    "src_ip": "185.220.102.0",
+    "dst_ip": "192.168.3.5",
+    "event": "Proxy traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:45:00Z",
+    "src_ip": "104.244.72.0",
+    "dst_ip": "192.168.3.6",
+    "event": "Malicious JavaScript loaded",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:46:00Z",
+    "src_ip": "176.10.104.0",
+    "dst_ip": "192.168.3.7",
+    "event": "Anomalous DNS pattern",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:47:00Z",
+    "src_ip": "198.96.155.0",
+    "dst_ip": "192.168.3.8",
+    "event": "Fileless malware",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:48:00Z",
+    "src_ip": "212.83.182.0",
+    "dst_ip": "192.168.3.9",
+    "event": "Reverse shell attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:49:00Z",
+    "src_ip": "5.2.69.0",
+    "dst_ip": "192.168.3.10",
+    "event": "Backdoor communication",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:50:00Z",
+    "src_ip": "89.248.167.0",
+    "dst_ip": "192.168.3.11",
+    "event": "Malicious PowerShell script",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:51:00Z",
+    "src_ip": "199.195.253.0",
+    "dst_ip": "192.168.3.12",
+    "event": "Outbound beacon",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:52:00Z",
+    "src_ip": "37.19.214.0",
+    "dst_ip": "192.168.3.13",
+    "event": "DGA domain resolution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:53:00Z",
+    "src_ip": "185.100.85.0",
+    "dst_ip": "192.168.3.14",
+    "event": "Malicious PDF opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:54:00Z",
+    "src_ip": "91.218.114.0",
+    "dst_ip": "192.168.3.15",
+    "event": "Malware-infected USB",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:55:00Z",
+    "src_ip": "185.38.175.0",
+    "dst_ip": "192.168.3.16",
+    "event": "C2 traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:56:00Z",
+    "src_ip": "5.79.66.0",
+    "dst_ip": "192.168.3.17",
+    "event": "Phishing email opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:57:00Z",
+    "src_ip": "138.68.165.0",
+    "dst_ip": "192.168.3.18",
+    "event": "Malicious macro execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:58:00Z",
+    "src_ip": "185.31.175.0",
+    "dst_ip": "192.168.3.19",
+    "event": "Known threat actor IP",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T10:59:00Z",
+    "src_ip": "89.234.157.0",
+    "dst_ip": "192.168.3.20",
+    "event": "Zero-day exploit",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:00:00Z",
+    "src_ip": "82.221.105.0",
+    "dst_ip": "192.168.3.21",
+    "event": "Trojan downloader",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:31:00Z",
+    "src_ip": "82.221.105.0",
+    "dst_ip": "192.168.3.22",
+    "event": "Trojan downloader",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:32:00Z",
+    "src_ip": "178.20.55.0",
+    "dst_ip": "192.168.3.23",
+    "event": "Command and control",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:33:00Z",
+    "src_ip": "8.8.8.8",
+    "dst_ip": "192.168.3.24",
+    "event": "DNS request",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:34:00Z",
+    "src_ip": "1.1.1.1",
+    "dst_ip": "192.168.3.25",
+    "event": "Port scan detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:35:00Z",
+    "src_ip": "185.100.87.202",
+    "dst_ip": "192.168.3.26",
+    "event": "Suspicious login attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:36:00Z",
+    "src_ip": "103.21.244.0",
+    "dst_ip": "192.168.3.27",
+    "event": "SSH brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:37:00Z",
+    "src_ip": "198.51.100.2",
+    "dst_ip": "192.168.3.28",
+    "event": "Web shell upload",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:38:00Z",
+    "src_ip": "23.129.64.0",
+    "dst_ip": "192.168.3.29",
+    "event": "Malicious file download",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:39:00Z",
+    "src_ip": "203.0.113.1",
+    "dst_ip": "192.168.3.30",
+    "event": "Unauthorized access",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:40:00Z",
+    "src_ip": "185.244.25.0",
+    "dst_ip": "192.168.3.31",
+    "event": "Botnet traffic",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:41:00Z",
+    "src_ip": "109.201.133.0",
+    "dst_ip": "192.168.3.32",
+    "event": "Exploit attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:42:00Z",
+    "src_ip": "185.220.101.0",
+    "dst_ip": "192.168.3.33",
+    "event": "Malware beacon detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:43:00Z",
+    "src_ip": "91.219.236.0",
+    "dst_ip": "192.168.3.34",
+    "event": "Credential stuffing",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:44:00Z",
+    "src_ip": "45.138.72.0",
+    "dst_ip": "192.168.3.35",
+    "event": "RDP brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:45:00Z",
+    "src_ip": "80.82.70.0",
+    "dst_ip": "192.168.3.36",
+    "event": "Suspicious file execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:46:00Z",
+    "src_ip": "185.220.102.0",
+    "dst_ip": "192.168.3.37",
+    "event": "Proxy traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:47:00Z",
+    "src_ip": "104.244.72.0",
+    "dst_ip": "192.168.3.38",
+    "event": "Malicious JavaScript loaded",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:48:00Z",
+    "src_ip": "176.10.104.0",
+    "dst_ip": "192.168.3.39",
+    "event": "Anomalous DNS pattern",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:49:00Z",
+    "src_ip": "198.96.155.0",
+    "dst_ip": "192.168.3.40",
+    "event": "Fileless malware",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:50:00Z",
+    "src_ip": "212.83.182.0",
+    "dst_ip": "192.168.3.41",
+    "event": "Reverse shell attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:51:00Z",
+    "src_ip": "5.2.69.0",
+    "dst_ip": "192.168.3.42",
+    "event": "Backdoor communication",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:52:00Z",
+    "src_ip": "89.248.167.0",
+    "dst_ip": "192.168.3.43",
+    "event": "Malicious PowerShell script",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:53:00Z",
+    "src_ip": "199.195.253.0",
+    "dst_ip": "192.168.3.44",
+    "event": "Outbound beacon",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:54:00Z",
+    "src_ip": "37.19.214.0",
+    "dst_ip": "192.168.3.45",
+    "event": "DGA domain resolution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:55:00Z",
+    "src_ip": "185.100.85.0",
+    "dst_ip": "192.168.3.46",
+    "event": "Malicious PDF opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:56:00Z",
+    "src_ip": "91.218.114.0",
+    "dst_ip": "192.168.3.47",
+    "event": "Malware-infected USB",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:57:00Z",
+    "src_ip": "185.38.175.0",
+    "dst_ip": "192.168.3.48",
+    "event": "C2 traffic detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:58:00Z",
+    "src_ip": "5.79.66.0",
+    "dst_ip": "192.168.3.49",
+    "event": "Phishing email opened",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T11:59:00Z",
+    "src_ip": "138.68.165.0",
+    "dst_ip": "192.168.3.50",
+    "event": "Malicious macro execution",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:00:00Z",
+    "src_ip": "185.31.175.0",
+    "dst_ip": "192.168.3.1",
+    "event": "Known threat actor IP",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:01:00Z",
+    "src_ip": "89.234.157.0",
+    "dst_ip": "192.168.3.2",
+    "event": "Zero-day exploit",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:02:00Z",
+    "src_ip": "82.221.105.0",
+    "dst_ip": "192.168.3.3",
+    "event": "Trojan downloader",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:03:00Z",
+    "src_ip": "178.20.55.0",
+    "dst_ip": "192.168.3.4",
+    "event": "Command and control",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:04:00Z",
+    "src_ip": "8.8.8.8",
+    "dst_ip": "192.168.3.5",
+    "event": "DNS request",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:05:00Z",
+    "src_ip": "1.1.1.1",
+    "dst_ip": "192.168.3.6",
+    "event": "Port scan detected",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:06:00Z",
+    "src_ip": "185.100.87.202",
+    "dst_ip": "192.168.3.7",
+    "event": "Suspicious login attempt",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:07:00Z",
+    "src_ip": "103.21.244.0",
+    "dst_ip": "192.168.3.8",
+    "event": "SSH brute force",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:08:00Z",
+    "src_ip": "198.51.100.2",
+    "dst_ip": "192.168.3.9",
+    "event": "Web shell upload",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:09:00Z",
+    "src_ip": "23.129.64.0",
+    "dst_ip": "192.168.3.10",
+    "event": "Malicious file download",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  },
+  {
+    "timestamp": "2025-07-29T12:10:00Z",
+    "src_ip": "203.0.113.1",
+    "dst_ip": "192.168.3.11",
+    "event": "Unauthorized access",
+    "threat_info": {
+      "pulses": [],
+      "tags": [],
+      "references": []
+    }
+  }
+]
