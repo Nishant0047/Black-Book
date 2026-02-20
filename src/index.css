@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light-bg text-gray-800 transition-colors duration-300 antialiased font-sans selection:bg-dark-accent selection:text-white;
+  }
+  
+  .dark body {
+    @apply bg-dark-bg text-gray-100 selection:bg-dark-neon;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply backdrop-blur-md bg-opacity-20 border border-white/10 shadow-glass;
+  }
+  
+  .neu-card {
+    @apply rounded-xl transition-all duration-300;
+  }
+  
+  .light .neu-card {
+    @apply bg-light-surface shadow-neu-light hover:shadow-lg border border-white/50;
+  }
+  
+  .dark .neu-card {
+    @apply bg-dark-surface shadow-neu-dark hover:shadow-black/40 border border-white/5;
+  }
+  
+  .neu-btn {
+    @apply px-6 py-2 rounded-lg font-medium transition-all duration-200 active:scale-95;
+  }
+  
+  .light .neu-btn {
+    @apply bg-light-surface shadow-neu-light hover:text-dark-accent active:shadow-neu-pressed-light;
+  }
+  
+  .dark .neu-btn {
+    @apply bg-dark-surface shadow-neu-dark hover:text-dark-neon active:shadow-neu-pressed-dark;
+  }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-gray-400/30 rounded-full hover:bg-gray-400/50 transition-colors;
+    }
+}
