@@ -4,54 +4,108 @@
 
 @layer base {
   body {
-    @apply bg-light-bg text-gray-800 transition-colors duration-300 antialiased font-sans selection:bg-dark-accent selection:text-white;
+    @apply bg-light-bg text-light-textMain transition-colors duration-300 antialiased font-sans selection:bg-light-primary selection:text-white;
   }
   
   .dark body {
-    @apply bg-dark-bg text-gray-100 selection:bg-dark-neon;
+    @apply text-dark-textMain selection:bg-dark-primary;
+    background-color: #050A15; /* Deep dark blue background */
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(0, 240, 255, 0.1) 0%, transparent 50%),
+      linear-gradient(rgba(11, 18, 32, 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(11, 18, 32, 0.5) 1px, transparent 1px);
+    background-size: 100% 100%, 30px 30px, 30px 30px;
+    background-attachment: fixed;
   }
 }
 
 @layer utilities {
   .glass-panel {
-    @apply backdrop-blur-md bg-opacity-20 border border-white/10 shadow-glass;
-  }
-  
-  .neu-card {
-    @apply rounded-xl transition-all duration-300;
-  }
-  
-  .light .neu-card {
-    @apply bg-light-surface shadow-neu-light hover:shadow-lg border border-white/50;
-  }
-  
-  .dark .neu-card {
-    @apply bg-dark-surface shadow-neu-dark hover:shadow-black/40 border border-white/5;
-  }
-  
-  .neu-btn {
-    @apply px-6 py-2 rounded-lg font-medium transition-all duration-200 active:scale-95;
-  }
-  
-  .light .neu-btn {
-    @apply bg-light-surface shadow-neu-light hover:text-dark-accent active:shadow-neu-pressed-light;
-  }
-  
-  .dark .neu-btn {
-    @apply bg-dark-surface shadow-neu-dark hover:text-dark-neon active:shadow-neu-pressed-dark;
+    @apply transition-all duration-500 relative overflow-hidden rounded-xl border border-white/5 backdrop-blur-xl;
   }
 
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-    }
+  .dark .glass-panel {
+    @apply bg-[#0B1221]/70 border border-[#1A2642] backdrop-blur-xl shadow-[0_8px_32px_0_rgba(0,0,0,0.5)];
+  }
 
-    ::-webkit-scrollbar-track {
-        @apply bg-transparent;
-    }
+  /* Legacy support for soc-panel if used elsewhere */
+  .soc-panel {
+    @apply glass-panel;
+  }
 
-    ::-webkit-scrollbar-thumb {
-        @apply bg-gray-400/30 rounded-full hover:bg-gray-400/50 transition-colors;
-    }
+  .light .soc-panel {
+    @apply bg-light-surface/80 border border-light-border shadow-sm backdrop-blur-md;
+  }
+
+  .dark .soc-panel {
+    @apply bg-[#0B1220]/60 border border-[rgba(0,240,255,0.2)] backdrop-blur-lg;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 240, 255, 0.05);
+  }
+
+  /* Glowing and Neon Utilities */
+  .neon-text-cyan {
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.7), 0 0 20px rgba(0, 240, 255, 0.4);
+  }
+  .neon-text-red {
+    text-shadow: 0 0 10px rgba(255, 0, 60, 0.7), 0 0 20px rgba(255, 0, 60, 0.4);
+  }
+  .neon-text-green {
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.4);
+  }
+
+  .neon-border-cyan {
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3), inset 0 0 15px rgba(0, 240, 255, 0.1);
+    border-color: rgba(0, 240, 255, 0.5);
+  }
+
+  .cyber-glow {
+    box-shadow: 0 0 5px #00F0FF, 0 0 15px rgba(0, 240, 255, 0.5);
+  }
+  
+  .cyber-glow-red {
+    box-shadow: 0 0 5px #FF003C, 0 0 15px rgba(255, 0, 60, 0.5);
+  }
+
+  .scan-overlay {
+    @apply pointer-events-none absolute inset-0 z-50 bg-gradient-to-b from-transparent via-[#00F0FF]/15 to-transparent h-[15%] w-full animate-[scan-line_3s_linear_infinite];
+  }
+
+  /* Data Table styles for the SOC view */
+  .soc-table-header {
+    @apply border-b text-xs font-semibold uppercase tracking-wider text-left py-3 px-4;
+  }
+
+  .light .soc-table-header {
+    @apply border-light-border bg-gray-50 text-light-textMuted;
+  }
+
+  .dark .soc-table-header {
+    @apply border-[#1A2642] bg-[#0F172A]/80 text-[#38BDF8];
+  }
+
+  .soc-table-row {
+    @apply border-b transition-colors text-sm;
+  }
+
+  .light .soc-table-row {
+    @apply border-light-border hover:bg-gray-50 text-light-textMain;
+  }
+
+  .dark .soc-table-row {
+    @apply border-[#1A2642] hover:bg-[#1E293B]/50 text-[#E2E8F0];
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+      @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      @apply bg-[#1E293B] rounded-full hover:bg-[#334155] transition-colors border border-[#0F172A];
+  }
 }

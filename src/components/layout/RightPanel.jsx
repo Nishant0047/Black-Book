@@ -1,26 +1,51 @@
 import React from 'react';
-import { X, ExternalLink, Github, Linkedin, Mail } from 'lucide-react';
+import { X, ExternalLink, Github, Linkedin, Mail, Activity } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../utils/cn';
 
-const Widget = ({ title, children }) => (
-    <div className="mb-6 p-4 rounded-xl bg-light-surface dark:bg-dark-surface shadow-neu-light dark:shadow-neu-dark border border-white/5">
-        <h4 className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-3 uppercase tracking-wider text-xs">{title}</h4>
-        {children}
+const Widget = ({ title, children, icon: Icon }) => (
+    <div className="mb-6 p-4 rounded bg-[#030712] shadow-[0_0_10px_rgba(0,240,255,0.05)] border border-[rgba(0,240,255,0.2)] hover:border-[#00F0FF]/50 transition-colors relative overflow-hidden group">
+        <div className="absolute inset-0 bg-gradient-to-br from-transparent via-[#00F0FF]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <h4 className="flex items-center gap-2 text-[10px] font-bold text-[#E0F2FE] mb-4 uppercase tracking-widest relative z-10">
+            {Icon && <Icon size={14} className="text-[#00F0FF]" />}
+            <span style={{ textShadow: '0 0 5px rgba(0,240,255,0.5)' }}>{title}</span>
+        </h4>
+        <div className="relative z-10">{children}</div>
     </div>
 );
 
 const RightPanel = ({ isOpen, onClose }) => {
   return (
-    <div className={cn(
-        "fixed right-0 top-0 bottom-0 w-80 bg-light-bg/95 dark:bg-dark-bg/95 backdrop-blur-xl border-l border-white/10 shadow-2xl z-[60] transition-transform duration-300 ease-in-out p-6 overflow-y-auto",
-        isOpen ? "translate-x-0" : "translate-x-full"
-    )}>
-        <div className="flex items-center justify-between mb-8">
-            <h3 className="text-xl font-bold text-gray-800 dark:text-white">Workspace</h3>
-            <button onClick={onClose} className="p-2 rounded-full hover:bg-white/10 transition-colors">
-                <X size={20} />
-            </button>
-        </div>
+    <AnimatePresence>
+      {isOpen && (
+        <>
+          {/* Backdrop */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={onClose}
+            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[50]"
+          />
+          
+          <motion.div 
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              className="fixed right-0 top-0 bottom-0 w-80 bg-[#0B1220]/95 backdrop-blur-xl border-l border-[#00F0FF]/30 shadow-[-10px_0_30px_rgba(0,0,0,0.5)] z-[60] p-6 overflow-y-auto cyber-panel"
+          >
+              <div className="scan-overlay opacity-20 pointer-events-none"></div>
+
+              <div className="flex items-center justify-between mb-8 relative z-10">
+                  <h3 className="text-[14px] font-bold text-[#E0F2FE] tracking-widest uppercase flex items-center gap-2">
+                      <Activity size={18} className="text-[#00F0FF] animate-pulse glow" />
+                      Workspace
+                  </h3>
+                  <button onClick={onClose} className="p-2 rounded text-[#00F0FF] hover:bg-[#00F0FF]/20 hover:text-white transition-all cyber-glow">
+                      <X size={18} />
+                  </button>
+              </div>
 
         <Widget title="Music Focus">
              <div className="bg-black/20 rounded-lg p-2 flex items-center gap-3">
@@ -70,7 +95,10 @@ const RightPanel = ({ isOpen, onClose }) => {
                 ))}
             </div>
         </Widget>
-    </div>
+          </motion.div>
+        </>
+      )}
+    </AnimatePresence>
   );
 };
 
